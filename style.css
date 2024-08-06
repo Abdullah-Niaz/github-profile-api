@@ -29,6 +29,7 @@ body {
 .profile-image img {
     width: 80%;
     border-bottom: 1px solid #eee;
+    cursor: pointer;
 }
 
 .profile-info {
