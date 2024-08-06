@@ -1,3 +1,4 @@
+
 body {
     display: flex;
     justify-content: center;
@@ -38,34 +39,40 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .profile-info h1 {
     margin: 0;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .profile-info p {
     color: #666;
     font-size: 14px;
     margin: 10px 0;
+    cursor: pointer;
 }
 
 .profile-stats {
     display: flex;
     justify-content: space-between;
     margin: 20px 0;
+    cursor: pointer;
 }
 
 .profile-stats div {
     text-align: center;
     padding-left:20px ;
+    cursor: pointer;
 }
 
 .profile-stats span {
     display: block;
     font-size: 15px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 a {
@@ -74,6 +81,7 @@ a {
     background-color: #007bff;
     padding: 10px 10px;
     border-radius: 5px;
+    cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
