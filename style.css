@@ -58,7 +58,7 @@ body {
 .profile-stats {
     display: flex;
     justify-content: space-between;
-    margin: 20px 0;
+    margin: 20px 0; 
     cursor: pointer;
 }
 
